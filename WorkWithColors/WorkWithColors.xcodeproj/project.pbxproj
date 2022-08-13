@@ -13,6 +13,7 @@
 		87FE6D7528A7A4AC00FC95C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FE6D7328A7A4AC00FC95C3 /* Main.storyboard */; };
 		87FE6D7728A7A4AE00FC95C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FE6D7628A7A4AE00FC95C3 /* Assets.xcassets */; };
 		87FE6D7A28A7A4AE00FC95C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FE6D7828A7A4AE00FC95C3 /* LaunchScreen.storyboard */; };
+		87FE6D8228A7B3A000FC95C3 /* TwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6D8128A7B3A000FC95C3 /* TwoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		87FE6D7628A7A4AE00FC95C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87FE6D7928A7A4AE00FC95C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87FE6D7B28A7A4AE00FC95C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FE6D8128A7B3A000FC95C3 /* TwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				87FE6D6D28A7A4AC00FC95C3 /* AppDelegate.swift */,
 				87FE6D6F28A7A4AC00FC95C3 /* SceneDelegate.swift */,
 				87FE6D7128A7A4AC00FC95C3 /* ViewController.swift */,
+				87FE6D8128A7B3A000FC95C3 /* TwoVC.swift */,
 				87FE6D7328A7A4AC00FC95C3 /* Main.storyboard */,
 				87FE6D7628A7A4AE00FC95C3 /* Assets.xcassets */,
 				87FE6D7828A7A4AE00FC95C3 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87FE6D7228A7A4AC00FC95C3 /* ViewController.swift in Sources */,
+				87FE6D8228A7B3A000FC95C3 /* TwoVC.swift in Sources */,
 				87FE6D6E28A7A4AC00FC95C3 /* AppDelegate.swift in Sources */,
 				87FE6D7028A7A4AC00FC95C3 /* SceneDelegate.swift in Sources */,
 			);
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
