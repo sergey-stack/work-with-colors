@@ -17,10 +17,10 @@ class ViewController: UIViewController, ColorUpdate {
         
     }
     
-    @IBOutlet var superView: UIView! {
-        didSet { superView.backgroundColor = .purple
-    }
-    }
+    @IBOutlet var superView: UIView!
+        
+    
+    
     
     @IBAction func transitionOnTwoVC(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -32,6 +32,8 @@ class ViewController: UIViewController, ColorUpdate {
     }
     
     
-}
+        
+    }
+
 
 

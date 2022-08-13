@@ -13,7 +13,10 @@ class TwoVC: UIViewController, ColorUpdate {
         
     }
     
-   
+    
+    var delegate: ColorUpdate?
+    var colorView: UIColor?
+    
     
     @IBOutlet weak var sliderRed: UISlider!
     
@@ -100,9 +103,6 @@ class TwoVC: UIViewController, ColorUpdate {
         delegate?.onColorUpdate(color: viewColor.backgroundColor!)
                }
     
-    
-    var delegate: ColorUpdate?
-    var colorView: UIColor?
     
     
 

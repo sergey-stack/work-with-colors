@@ -164,7 +164,7 @@
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89U-Hk-GfR">
                                         <rect key="frame" x="25" y="487" width="350" height="41"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" systemColor="systemGray6Color"/>
                                     </view>
                                 </subviews>
@@ -221,6 +221,7 @@
         <!--Navigation Controller-->
         <scene sceneID="NC2-7D-GjA">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1g-sJ-lV7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iKC-iN-zLD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7X0-Cp-73j">
@@ -232,7 +233,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QIz-vq-bhl"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A1g-sJ-lV7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
